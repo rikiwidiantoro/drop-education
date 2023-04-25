@@ -1,0 +1,67 @@
+.main {
+  padding: 0 250px;
+}
+
+/* quotes */
+.main__quotes {
+  position: relative;
+}
+
+.main__quotes__text {
+  width: 500px;
+  text-align: center;
+  position: absolute;
+  right: 0;
+  top: 30px;
+  z-index: 1;
+}
+
+.main__quotes__text p {
+  font-size: 15px;
+}
+
+.main__quotes__text__author {
+  margin-top: 10px;
+  color: #FF5F61;
+}
+
+/* welcome 1 & 2*/
+.main__welcome1 {
+  padding: 200px 0 100px;
+}
+
+.main__welcome1, .main__welcome2, .main__footer, .main__cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__welcome1__text, .main__welcome2__text {
+  width: 500px;
+}
+
+.main__welcome1__text p, .main__welcome2__text p {
+  margin: 20px 0;
+  color: #ACACAC;
+}
+
+/* cards */
+.main__cards {
+  padding: 80px 0;
+  text-align: center;
+}
+
+/* footer */
+.main__footer {
+  border-top: 1px solid #E9E9E9;
+  color: #E9E9E9;
+  padding: 20px 0;
+}
+
+.main__footer a {
+  color: #E9E9E9;
+  text-decoration: none;
+  margin: 0 10px;
+}
+.main__footer a:hover {
+  color: black;
+}
