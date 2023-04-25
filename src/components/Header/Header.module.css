@@ -1,0 +1,40 @@
+.header {
+  background-color: #6400FF;
+  padding: 0 250px;
+  color: white;
+}
+
+.header__navbar {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__navbar__logo h1 {
+  line-height: 80px;
+}
+
+.header__navbar__link a {
+  line-height: 80px;
+  padding: 5px 10px;
+  margin: 0 15px;
+  /* background-color: aliceblue; */
+  text-decoration: none;
+  color: #D7BAFF;
+}
+.header__navbar__link a:hover {
+  color: #FFF;
+}
+.header__navbar__link button {
+  margin-left: 60px;
+}
+
+
+/* header */
+.header__header__text h1 {
+  font-size: 60px;
+}
+.header__header__text p {
+  font-size: 14px;
+  margin: 10px 0 30px;
+}
