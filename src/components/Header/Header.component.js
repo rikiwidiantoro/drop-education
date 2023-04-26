@@ -3,7 +3,7 @@ import Button from "../Button/Button.component";
 
 function Header() {
   return (
-    <div className={headerCss.header}>
+    <div className={headerCss.header} id="home">
       {/* navbar */}
       <nav className={headerCss.header__navbar}>
         <div className={headerCss.header__navbar__logo}>
@@ -30,7 +30,7 @@ function Header() {
           />
         </div>
         <div className={headerCss.header__header__image}>
-          
+          <h1>gambar</h1>
         </div>
       </header>
     </div>

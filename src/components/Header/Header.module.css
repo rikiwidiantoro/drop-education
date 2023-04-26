@@ -4,6 +4,7 @@
   color: white;
 }
 
+/* navbar */
 .header__navbar {
   height: 80px;
   display: flex;
@@ -29,23 +30,40 @@
   text-decoration: none;
   color: #D7BAFF;
 }
+
 .header__navbar__link a:hover {
   color: #FFF;
 }
+
 .header__navbar__link button {
   margin-left: 60px;
 }
 
 
 /* header */
-
 .header__header {
   padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding: 150px 0;
 }
+
+.header__header__text {
+  width: 50%;
+}
+
 .header__header__text h1 {
-  font-size: 60px;
+  font-size: 58px;
 }
+
 .header__header__text p {
   font-size: 14px;
   margin: 10px 0 30px;
+}
+
+.header__header__image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
